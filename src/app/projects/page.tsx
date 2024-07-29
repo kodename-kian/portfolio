@@ -1,12 +1,14 @@
 import React from "react";
+import Body from "@/components/Body";
+import Chunk from "@/components/Chunk";
 
 export default function Home() {
     return (
-      <div className="bg-green-300">
+      <Body>
         <div>
           My Projects
         </div>
-      </div>
+      </Body>
     );
   }
   
