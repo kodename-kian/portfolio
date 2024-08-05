@@ -14,7 +14,7 @@ export default function Home() {
             <Chunk href="https://www.linkedin.com/in/kian-colin-chua/" label="LinkedIn" />
             <Chunk href="https://www.instagram.com/kian.colin/" label="Instagram" />
           </div>
-          <div className="w-full md:h-full md:w-1/2 m-2 border-dotted border border-black p-2">
+          <div className="w-full md:h-full md:w-1/2 m-2 border-dotted border border-black p-2 overflow-y-auto">
             <div className="w-full">
               <span className="text-lg"> Or, Send A Message 💌 </span>
               <ContactForm />
