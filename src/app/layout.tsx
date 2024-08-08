@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font95.className}>
         <main className="flex min-h-screen md:h-screen flex-col items-center bg-window">
-          <div className="w-full h-full md:pl-24 md:pr-24 p-12 mb-12">
+          <div className="w-full h-full md:pl-24 md:pr-24 p-12">
             <Header />
             {children}
           </div>

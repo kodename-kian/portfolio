@@ -6,7 +6,7 @@ interface BodyProps {
 
 export default function Body({children} : PropsWithChildren<BodyProps>) {
     return (
-        <div className="border-4 border-gray-300 bg-gray-100 p-2 h-full text-gray-900">
+        <div className="border-4 border-gray-300 bg-gray-100 p-2 h-5/6 text-gray-900">
             {children}
         </div>
     );

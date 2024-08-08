@@ -36,7 +36,6 @@ export default function ContactForm() {
         setCanSub(true);
     });
 
-    // TODO: fix out-of-bounds when mobile horizontal view
     return (
         <form className="pt-2" onSubmit={send}>
             <input type="text" name="name" placeholder="Your Name" maxLength={60} required
