@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 interface NavLinkProps {
     href: string,
@@ -9,9 +10,9 @@ interface NavLinkProps {
 }
 
 function NavLink({href, label} : NavLinkProps) {
-    // TODO: active navigation
+    const path = usePathname();
     return (
-        <Link href={href} className="p-1 pl-2 pr-2 hover:bg-blue-950 rounded-tr-lg"> {label} </Link>
+        <Link href={href} className={ (path == href ? "bg-blue-950" : "") + " p-1 pl-2 pr-2 hover:bg-blue-950 rounded-tr-lg"}> {label} </Link>
     );
 }
 
