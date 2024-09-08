@@ -21,7 +21,7 @@ export default function Project({title, year, open, links, children} : PropsWith
 
     return (
         <div>
-            <button onClick={() => setContentVis(!contentVisible)}>
+            <button onClick={() => setContentVis(!contentVisible)} className="text-left">
                 { contentVisible ? <span className="text-md"> {'\u25BC'} </span> :
                                    <span className="text-sm"> {'\u25B6'} </span> }
                 { title }
@@ -30,9 +30,9 @@ export default function Project({title, year, open, links, children} : PropsWith
 
             { contentVisible ?
                 <div className="flex flex-col p-2 rounded-lg border border-dashed border-black">
-                    { children }
+                    <div className="font-mono text-sm"> { children } </div>
                     { links ? 
-                        <div className="flex flex-col md:flex-row md:items-center pt-6"> 
+                        <div className="flex flex-col md:flex-row md:items-center pt-3"> 
 
                             { links.map((link) => {
                                 return( 
