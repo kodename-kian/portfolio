@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icon.ico" />
+      </head>
       <body className={font95.className}>
         <main className="flex min-h-screen md:h-screen flex-col items-center bg-window">
           <div className="w-full h-full md:pl-24 md:pr-24 p-12">
