@@ -29,11 +29,10 @@ export default function ContactForm() {
             e.target.name.value = "";
             e.target.email.value = "";
             e.target.message.value = "";
+            setCanSub(true);
         } else {
             console.log("Something went wrong!");
         }
-
-        setCanSub(true);
     });
 
     return (
