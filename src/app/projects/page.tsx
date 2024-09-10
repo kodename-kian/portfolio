@@ -5,7 +5,7 @@ import Project from "@/components/Project";
 export default function Home() {
     return (
       <Body>
-        <div className="max-h-full overflow-y-scroll">
+        <div className="max-h-full overflow-y-scroll pt-2 md:p-4 md:pl-2 md:pb-0">
           <span className="text-2xl"> &gt;&gt; 📁 Archive </span>
           <div className="h-full flex flex-col items-left ml-4 mr-4 p-4">
             
