@@ -6,7 +6,7 @@ import ContactForm from "@/components/ContactForm";
 export default function Home() {
     return (
       <Body>
-        <div className="w-full md:h-full flex flex-col items-center md:flex-row md:justify-center p-2 md:p-4">
+        <div className="w-full md:h-full flex flex-col items-start md:flex-row p-2 md:p-4">
           <div className="w-full md:h-full p-2 md:w-1/2"> 
             <span className="text-lg"> Find Me Here: </span>
             <Chunk href="https://github.com/kodename-kian" label="GitHub" icon="pi pi-github" />

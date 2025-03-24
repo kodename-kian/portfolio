@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-import Header from "@/components/Header";
+import NavBar from "@/components/NavBar";
 
 const font95 = localFont({
   src: '../fonts/w95fa.woff2',
@@ -25,10 +25,12 @@ export default function RootLayout({
         <link rel="icon" href="/icon.ico" />
       </head>
       <body className={font95.className}>
-        <main className="flex min-h-screen md:h-screen flex-col items-center bg-window">
-          <div className="w-full h-full md:pl-24 md:pr-24 p-12">
-            <Header />
-            {children}
+        <main className="flex items-center justify-center bg-window">
+          <div className="flex flex-col w-full max-w-6xl min-h-screen md:pl-24 md:pr-24 p-12">
+            <NavBar />
+            <div className="flex-grow min-h-0">
+              {children}
+            </div>
           </div>
         </main>
       </body>

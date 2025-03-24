@@ -30,22 +30,7 @@ export default function Home() {
           A space for all my projects, achievements, and more; follow along my journey through this personal 
           <span className="text-teal-600"> portfolio </span> website!
         </div>
-
-        <div className="w-full font-mono text-md lg:mt-2 lg:text-lg">
-          <span className="pr-2 pi pi-exclamation-circle"></span> 
-          Ready to rise up to my next challenge & eager to contribute to a project
-          I can be proud of, I&apos;m currenty seeking a
-          <span className="text-teal-600"> Co-Op Internship </span>
-          for Jan 2025!
-        </div>
-
-        <div className="flex justify-center items-center pt-10 text-xs">
-          <Image src="/dino.png" width="75" height="50" alt="offline dinosaur">
-          </Image>
-          Kian Chua &copy; &nbsp; <span className="text-teal-600"> 2024 </span>
-          <Image src="/dino-reverse.png" width="75" height="50" alt="offline dinosaur">
-          </Image>
-        </div>
+        
       </div>
     </Body>
   );

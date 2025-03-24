@@ -16,7 +16,7 @@ function NavLink({href, label} : NavLinkProps) {
     );
 }
 
-export default function Header() {
+export default function NavBar() {
     return (
         <div>
             <nav className="w-full flex flex-row pl-2 pr-2 bg-blue-900 text-gray-100 border-2 rounded-tr-xl">
@@ -31,21 +31,12 @@ export default function Header() {
                 <div className="flex justify-end items-center mt-1 mb-1 pl-2 pr-2 text-sm hidden md:block bg-red-800 rounded-sm border border-gray-400">
                     x
                 </div>
-            </nav> 
+            </nav>
             <div className="w-full flex flex-row p-1 bg-gray-400 text-gray-800 text-xs">
-                <div className="ml-1 mr-2">
-                    File
-                </div>
-                <div className="ml-1 mr-2">
-                    Edit
-                </div>
-                <div className="ml-1 mr-2">
-                    View
-                </div>
-                <div className="ml-1 mr-2">
-                    Help
-                </div>
-
+                <div className="ml-1 mr-2"> File </div>
+                <div className="ml-1 mr-2"> Edit </div>
+                <div className="ml-1 mr-2"> View </div>
+                <div className="ml-1 mr-2"> Help </div>
             </div>
         </div>
          
