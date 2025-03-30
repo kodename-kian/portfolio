@@ -12,10 +12,11 @@ export default function Home() {
           </Image>
 
           <div className="flex flex-col mt-6 md:pl-4">
-            <span className="text-5xl"> Hi! I&apos;m Kian. </span>
+            <span className="text-5xl"> Hi! I&apos;m Kian, </span>
             <div className="font-mono mt-4 text-md lg:text-lg "> 
-              I&apos;m a software developer and student at the University of British Columbia,
-              currently pursuing a Bachelor of Science with a Combined Major in 
+              I&apos;m a software developement intern at <span className="text-teal-600"> Demonware </span> 
+              and a student at the <span className="text-teal-600"> University of British Columbia</span>.
+              Currently pursuing a Bachelor of Science with a Combined Major in 
               <span className="text-teal-600"> Computer Science </span> and 
               <span className="text-teal-600"> Mathematics</span>.
             </div>

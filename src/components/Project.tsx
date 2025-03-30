@@ -29,7 +29,7 @@ export default function Project({title, year, open, links, children} : PropsWith
             </button>
 
             { contentVisible ?
-                <div className="flex flex-col p-2 rounded-lg border border-dashed border-black">
+                <div className="flex flex-col p-2 rounded-lg border border-dashed border-black mb-2">
                     <div className="font-mono text-sm"> { children } </div>
                     { links ? 
                         <div className="flex flex-col md:flex-row md:items-center pt-3"> 

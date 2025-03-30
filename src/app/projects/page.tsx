@@ -6,11 +6,25 @@ export default function Home() {
     return (
       <Body>
         <div className="max-h-full pt-2 md:p-4 md:pl-2 md:pb-0">
-          <span className="text-2xl"> &gt;&gt; 📁 Archive </span>
+          <span className="text-2xl"> &gt;&gt; 📁 Project Archive </span>
           <div className="h-full flex flex-col items-left ml-4 mr-4 p-4">
             
             <span className="w-full text-xl      mb-2 border-b border-black"> Experience </span>
-              <Project title="Freelance Web Developer" year="2024" open={true} >
+            <Project title="Software Development Co-op @ Demonware" year="2025" open={true} >
+                <ul className={"list-disc list-inside"}>
+                  <li>
+                    Designing and implementing back-end services and tools to assist game studios in the integration of multiplayer features into the next Call of Duty.
+                  </li>
+                  <li>
+                    Facilitating the deployment of services on distributed systems via Kubernetes and GitOps.
+                  </li>
+                  <li>
+                    Actively contributing in discussions and code reviews as a member of a small agile team.
+                  </li>
+                </ul>
+              </Project>
+
+              <Project title="Freelance Web Developer" year="2024">
                 <ul className={"list-disc list-inside"}>
                   <li>
                     Rebuilt client&apos;s existing TALL stack application (Tailwind CSS, Alpine.js, Laravel, Livewire) by migrating it to the VILT stack (Vue.js, Inertia.js, Laravel, TailwindCSS)
@@ -104,6 +118,17 @@ export default function Home() {
               </Project>
 
             <span className="w-full text-xl mt-4 mb-2 border-b border-black"> Competitions </span>
+              <Project title="ICPC -- Pacific Northwest  Regional Contest" year="2024">
+                  <ul className={"list-disc list-inside"}>
+                    <li>
+                      Bronze Medalist (3rd Place) - British Columbia Site;  Ranked 13th out of 69 for the overall contest
+                    </li>
+                    <li>
+                      Solved 10 of 13 problems in 5 hours, making use of data structures, dynamic programming, and more
+                    </li>
+                  </ul>
+              </Project>
+
               <Project title="National Oympiad in Informatics -- Philippines" year="2020-2023"
                         links={[{platform: "2023 Finals", url:"https://noi.ph/2023-national-finals/", icon:"pi pi-star"}]}>
                   <ul className={"list-disc list-inside"}>
